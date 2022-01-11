@@ -1,0 +1,140 @@
+1. Fix the code to get the largest of three.
+letf,s,t;
+aa = (f,s,t) => {
+if(f>s &&f>t){
+console.log(f)}
+else if(s>f && s>t){
+console.log(s)}
+else{
+console.log(t)}
+}
+aa(1,2,3);
+
+```````````````````````````````````````````````````````````````````````````````````````````
+
+2. Fix the code to Sum of the digits present in the number
+constnewArray=[1,3,2,5,10];
+functionisPrime(num) {
+for (let start = 2; num > start; start++) {
+if (num % start == 0) {
+return false;
+    }
+  }
+return num > 1;
+}
+
+console.log(newArray.filter(isPrime));
+
+
+console.log(
+  [10, 20, 30, 40,50,60,70,80,90,100].reduce((a, b) => a + b, 0)
+)
+console.log(
+  [].reduce((a, b) => a + b, 0)
+)
+
+
+``````````````````````````````````````````````````````````````````````````````````````````````
+
+
+3. Fix the code to Sum of all numbers using IIFE function
+
+functionRightRotate(a, n, k)
+{
+
+    // If rotation is greater
+    // than size of array
+    k = k % n;
+
+for (let i = 0; i< n; i++) {
+if (i< k) {
+
+            // Printing rightmost
+            // kth elements
+console.log(a[n + i - k] + " ");
+        }
+else {
+
+            // Prints array after
+            // 'k' elements
+console.log((a[i - k]) + " ");
+        }
+    }
+return ;
+}
+
+// Driver code
+let Array =  [1, 2, 3, 6, 8, 6, 1, 9, 10, 12, 13];
+let N = Array.length;
+let K = 2;
+
+RightRotate(Array, N, K)
+
+
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+4. Fix the code to gen Title caps.
+var array =[{"firstname":"vasanth", "lastname":"Raje", "age":24, "role":"JSWizard"},
+    {"firstname":"Sri", "lastnam":"Devi","age":28,"role":"Coder"}];
+var final=[];
+
+for(vari=0; i<array.length;i++){
+final.push(array[i]);
+}
+console.log(final);
+
+
+
+`````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+6.
+vararr = [1, 2, 3, 5, 7, 79, 7, 2, 6, 9, 4];
+(function() {
+for (vari = 0; i<arr.length; i++) {
+if (arr[i] % 2 !== 0) {
+console.log(arr[i]);
+        }}
+})();
+
+
+````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+7. Fix the code to gen Title caps.
+vararr = ["guvi", "geek", "zen", "fullstack"];
+(function() {
+for (vari = 0; i<= arr.length; i++) {
+console.log(arr[i].toUpperCase());
+    }
+})();
+
+
+
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+8. Fix the code to give the below output:
+aa = data=>{
+var a=data;
+for(i=0;i<a.length;i++){
+var l='';
+var s=a[i+1]
+var b=a[i]
+        l+=s+1
+        l+=b+2
+i=i+1
+    }
+if((a.length%2)!=0){
+        l+=a[a.length-1]
+    }
+console.log(l);
+}aa("1234");
+
+
+`````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
+
+
+
+
